@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--아래의 스타일시트를 써줘서 fontawesome의 아이콘 링크를 붙여넣기만 해도 화면에 보인다-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+
+
+  <title>Friends</title>
+</head>
+<body>
+  <header>
+    <!--갈색부분의 비행기라인 탑헤더와 manage 라인 바텀헤더-->
+    <!--emmet 패키지를 설치하고 div.header__top+div.header__bottom 쓰고 탭 누르니까 아래처럼 자동으로 써짐-->
+    <div class="header__top">
+      <!--div.header__column*3 이랑 탭하면 아래처럼-->
+      <div class="header__column">
+        <i class="fas fa-plane-departure"></i>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="header__column">
+        <!-- current time -->
+        <span class="header__time">18:33</span>
+      </div>
+      <div class="header__column">
+        <i class="fas fa-moon"></i>
+        <i class="fab fa-bluetooth"></i>
+        <span class="header__battery">66% <i class="fas fa-battery-three-quarters"></i></span>
+      </div>
+    </div>
+    <div class="header__bottom"></div>
+      <div class="header__column"></div>
+        <!--span은 스타일을 주기 위해 스는 뜻없는 태그-->
+        <span class="header__text">Manage</span>
+      <div class="header__column"></div>
+        <!--여기서 span을 중첩하는 이유는 무엇인가? 숫자를 언제든지 바뀔 수 있게 하기 위함?-->
+        <span class="header__text">Friends <span class="header__number">1</span></span>
+      <div class="header__column"></div>
+        <i class="fas fa-cog"></i>
+  </header>
+
+</body>
+</html>
