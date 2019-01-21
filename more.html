@@ -39,6 +39,52 @@
         <!-- fa-lg는 아이콘 사이즈 키워주는거 -->
         <span class="header__text"><i class="fas fa-cog fa-lg"></i></span>
   </header>
+
+  <main class="more">
+    <!--프로필 부분을 more컨텐츠의 헤더로 넣음-->
+    <header class="more__header">
+      <div class="more__header-0column">
+        <img src="robot.png">
+        <div class="more__header-info">
+          <h3 class="more__header-user-name">Joo</h3>
+          <span class="more__header-user-id">joo@kakao.com</span>
+        </div>
+      </div>
+      <div class="more__header-column">
+        <i class="fa fa-comment"></i>
+      </div>
+    </header>
+    <!--프로필 밑의 옵션을 섹션으로 넣음-->
+    <section class="more__options">
+      <!--div를 4개 만들어서 각 div안에 아이콘과 span이 묶이도록 해준다.-->
+      <div class="more__option">
+        <i class="far fa-smile fa-lg"></i>
+        <span class="more__option-title">Emojies</span>
+      </div>
+      <div class="more__option">
+        <i class="fas fa-paint-brush fa-lg"></i>
+        <span class="more__option-title">Themes</span>
+      </div>
+      <div class="more__option">
+        <i class="far fa-plus-square fa-lg"></i>
+        <span class="more__option-title">Plus Friends</span>
+      </div>
+      <div class="more__option">
+        <i class="far fa-user-friends fa-lg"></i>
+        <span class="more__option-title">Account</span>
+      </div>
+    </section>
+    <section class="more__plus-friends">
+      <header class="plus-friends-header">
+        <h2 class="plus-friends__title">Plus Friends</h2>
+        <span class="plus-friend__learn-more">
+          <i class="fa fa-info-circle"></i>
+          Learn More</span>
+      </header>
+    </section>
+
+    </main>
+  </main>
   <nav class="tab-bar">
     <a href="index.html" class="tab-bar__">
       <i class="fa fa-user"></i>
@@ -56,7 +102,6 @@
       <i class="fa fa-ellipsis-h"></i>
       <span class="tab-bar__title">More</span>
     </a>
-
   </nav>
 </body>
 </html>
