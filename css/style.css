@@ -1,0 +1,8 @@
+/*구글폰트를 임포트해서 쓴다.*/
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import 'global.css';
+ /*global에 작성한 내용이 header에도 적용되므로 부른다*/
+@import 'reset.css';
+@import 'header.css';
+@import 'navigation.css';
