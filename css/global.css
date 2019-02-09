@@ -1,6 +1,6 @@
 /*body태그 내용의 글꼴을 Lato로 지정*/
 body{
   font-family: 'Lato', sans-serif;
-  padding-top: 60px;
+  padding-top: 100px;
   padding-bottom: 60px;
 }

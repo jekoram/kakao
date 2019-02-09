@@ -1,0 +1,29 @@
+.search-bar {
+  padding: 10px 25px;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 7px 7px;
+
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f1f2f3;
+  font-size: 13px;
+  text-align: center;
+}
+
+/*검색창을 포커스 했을 때 파란 선이 나타나지 않도록 outline을 없애준다.*/
+.search-bar input:focus {
+  outline: none;
+}
+
+
+.search-bar i {
+  position: absolute;
+  top: 18px;
+  left: 40px;
+  color: #bbbbbb;
+}
